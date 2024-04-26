@@ -1,41 +1,24 @@
-# vue-project
+# Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+The Progressive JavaScript Framework. An approachable, performant and versatile framework for building web user interfaces.. Check out their official documentation [here](https://vuejs.org/guide/introduction.html)
 
-## Recommended IDE Setup
+## Deploy a Vue App
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+In this tutorial, we advice creating a Dockerfile and using Docker as the build system
 
-## Customize configuration
+1. Fork/Clone this [Hostless-Vue-Example](https://github.com/Hostless-Examples/Hostless-Vue-Example) repo from github
+2. Click on 'Create New App'
+3. Choose a suitable app name
+4. Choose your github account
+5. Choose the forked github repo/the cloned remote repo
+6. Choose a build system
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+    1. 'Docker' - looks for a Dockerfile in the root of the project and build based on the instructions
 
-## Project Setup
+8. The PORT environment variable is set by Hostless but also ensure your Dockerfile exposes PORT 8000 
 
-```sh
-npm install
-```
+#### Sample configuration
+![sample](https://res.cloudinary.com/do58rrxug/image/upload/v1714124246/Screenshot_2024-04-26_at_10.37.10_vrui0i.png)
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+#### Example project
+An example project is hosted on [https://hostless-vue-example.hostless.app/](https://hostless-vue-example.hostless.app/)
