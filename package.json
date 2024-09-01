@@ -10,7 +10,7 @@
     "test:unit": "vitest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "serve": " serve -s build -l 8000"
+    "start": " serve -s build -l 8000"
   },
   "dependencies": {
     "pinia": "^2.1.7",
