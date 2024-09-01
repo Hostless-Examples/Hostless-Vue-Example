@@ -9,10 +9,12 @@
     "preview": "vite preview --host 0.0.0.0 --port 8080",
     "test:unit": "vitest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "serve": " serve -s build -l 8000"
   },
   "dependencies": {
     "pinia": "^2.1.7",
+    "serve": "^14.2.3",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
